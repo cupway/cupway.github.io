@@ -1,0 +1,29 @@
+$font-stack: Arial, Helvetica, sans-serif;
+$top: top;
+$inline-block: inline-block;
+$block: block;
+$center: center;
+$bold: bold;
+$a-tags: 'a, a:active, a:hover, a:visited';
+
+#{$a-tags} {
+  color: black;
+}
+
+body {
+  font: 100% $font-stack;
+}
+
+.item {
+  vertical-align: $top;
+  display: $inline-block;
+  text-align: $center;
+}
+
+.caption {
+  display: $block;
+}
+
+.bold {
+  font-weight: $bold;
+}

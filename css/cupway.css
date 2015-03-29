@@ -1,0 +1,16 @@
+a, a:active, a:hover, a:visited {
+  color: black; }
+
+body {
+  font: 100% Arial, Helvetica, sans-serif; }
+
+.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center; }
+
+.caption {
+  display: block; }
+
+.bold {
+  font-weight: bold; }
