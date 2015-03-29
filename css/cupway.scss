@@ -1,4 +1,5 @@
 $font-stack: Arial, Helvetica, sans-serif;
+$font-size: 1.3em;
 $top: top;
 $inline-block: inline-block;
 $block: block;
@@ -12,6 +13,7 @@ $a-tags: 'a, a:active, a:hover, a:visited';
 
 body {
   font: 100% $font-stack;
+  font-size: $font-size;
 }
 
 .item {

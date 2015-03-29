@@ -2,7 +2,8 @@ a, a:active, a:hover, a:visited {
   color: black; }
 
 body {
-  font: 100% Arial, Helvetica, sans-serif; }
+  font: 100% Arial, Helvetica, sans-serif;
+  font-size: 1.3em; }
 
 .item {
   vertical-align: top;
